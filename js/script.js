@@ -12,10 +12,10 @@ function enterClicked() {
 
   // process
   if (number < 0) {
-    //output that answer is right
+    //output that answer is negative
     document.getElementById('answer').innerHTML = "It is negative."
   } else {
-    //output that answer is wrong
+    //output that answer is positive
     document.getElementById('answer').innerHTML = "It is positive."
   }
 }
